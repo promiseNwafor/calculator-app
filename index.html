@@ -10,32 +10,37 @@
     <div id="container">
         <div class="input-container">
             <div class="input-display">
-               
+               0
             </div>
         </div>
         <div class="rows">
-            <div class="digits first-row">0</div> 
-            <div class="digits first-row">1</div> 
-            <div class="digits first-row">2</div> 
-            <div class="first-row">AC</div>
+            <div class="clear bg-light">AC</div>
+            <div class="clear bg-light">+/-</div>
+            <div class="clear bg-light">%</div>
+            <div class="operator bg-orange" id="divide">÷</div>
         </div>
         <div class="rows">
-            <div class="digits first-row">3</div> 
-            <div class="digits first-row">4</div> 
-            <div class="digits first-row">5</div> 
-            <div class="operator first-row" id="divide">/</div>
+            <div class="digits gray-bg">9</div> 
+            <div class="digits gray-bg">8</div> 
+            <div class="digits gray-bg">7</div> 
+            <div class="operator bg-orange" id="multiply">x</div>
         </div>
         <div class="rows">
-            <div class="digits first-row">6</div> 
-            <div class="digits first-row">7</div> 
-            <div class="digits first-row">8</div> 
-            <div class="operator first-row" id="multiply">x</div>
+            <div class="digits gray-bg">6</div> 
+            <div class="digits gray-bg">5</div> 
+            <div class="digits gray-bg">4</div> 
+            <div class="operator bg-orange" id="subtract">-</div> 
         </div>
         <div class="rows">
-            <div class="digits first-row">9</div> 
-            <div class="calculate first-row">=</div> 
-            <div class="operator first-row" id="add">+</div>
-            <div class="operator first-row" id="subtract">-</div> 
+            <div class="digits gray-bg">3</div> 
+            <div class="digits gray-bg">2</div> 
+            <div class="digits gray-bg">1</div> 
+            <div class="operator bg-orange" id="add">+</div>
+        </div>
+        <div class="rows span">
+            <div class="digits gray-bg span1">0</div> 
+            <div class="decimal gray-bg span2">.</div> 
+            <div class="calculate span3 bg-orange">=</div> 
         </div>
         <script src="index.js"></script>
     </div>
